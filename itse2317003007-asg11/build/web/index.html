@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<!-- Author: David Klickman 
+	 Date: 20161201
+	 Assignment: itse2317003007-asg11
+	 Built on Windows 7 VM w/ virtio drivers from
+	 KVM virtualization software. Host machine ubuntu 16.04 server
+	 Running xeon1246 v3, 16gb Crucial ECC ram, Supermicro mobo.  Thin
+	 client: hp8460p (a lacking network accessed vm...but thin) 
+--> 
+<html>
+    <head> 
+        <title>MI-6 Kit Request</title>
+        <link rel="stylesheet" href="css/css-1.css">
+    </head> 
+    <body>
+    <div class="center">
+        <h1>MI-6 Kit Request</h1>
+        <p> Welcome Mr Bond, <br> Please fill in the form and a procurement request will be sent to "Q" for fielding.</p>
+        
+
+
+<form action="form-processor-classes.jsp" method="post">
+      <table class="inline-block">
+          <tr><th id="th-id1" colspan="2">Aircraft Information:</th></tr>
+<tr>
+    <td>Make:</td>
+    <td><input type="text" name="acMake"></td>
+</tr>
+      <tr>
+          <td>Model:</td>
+          <td><input type="text" name="acModel"></td>
+      </tr>
+      <tr>
+          <td>Color:</td>
+          <td><input type="text" name="acColor"></td>
+      </tr>
+      <tr>
+      <td>Pilot Needed?</td>
+          <td><select name="pilotNeeded">
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+              </select>
+           </td>
+       </tr>
+
+      <tr><th id="th-id2" colspan="2">Automobile Information:</th></tr>
+
+      <tr>
+    		<td>Make:</td>
+    		<td><input type="text" name="abMake"></td>
+	 </tr>
+      
+     <tr>
+          <td>Model:</td>
+          <td><input type="text" name="abModel"></td>
+      </tr>
+     <tr>
+          <td>Color:</td>
+          <td><input type="text" name="abColor"></td>
+      </tr>
+      <tr>
+      <td>Bond Girl Needed?</td>
+          <td><select name="bondGirlNeeded">
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+              </select>
+           </td>
+       </tr>
+
+
+      <tr>
+          <td><img src="css/GBflag.png" style="width:75px;height:56px;"></td>
+          <td><br><input type="submit" value="Submit Mission Request"></td>
+      </tr>
+      </table>
+
+</form> 
+
+</div>
+</body>
+</html>
