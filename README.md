@@ -1,2 +1,2 @@
-# intermediatJava
+# intermediateJava
 fall2016
