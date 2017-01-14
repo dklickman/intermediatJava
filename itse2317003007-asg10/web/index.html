@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<!-- Author: David Klickman 
+	 Date: 20161127
+	 Assignment: itse2317003007-asg10
+	 Built on Windows 7 VM w/ virtio drivers from
+	 KVM virtualization software. Host machine ubuntu 16.04 server
+	 Running xeon1246 v3, 16gb Crucial ECC ram, Supermicro mobo.  Thin
+	 client: hp8460p (a lacking network accessed vm...but thin) 
+--> 
+<html>
+    <head> 
+        <title>College info and Teams</title>
+        <link rel="stylesheet" href="css/css-1.css">
+    </head> 
+    <body>
+    <div class="center">
+        <h1>College Info and Teams</h1>
+        
+
+
+<form action="form-processor-one.jsp" method="get">
+      <table class="inline-block">
+          <tr><th id="th-id1" colspan="2">College Info</th></tr>
+<tr>
+    <td>First Name:</td>
+    <td><input type="text" name="firstName"></td>
+</tr>
+      <tr>
+          <td>Last Name:</td>
+          <td><input type="text" name="lastName"></td>
+      </tr>
+      <tr>
+          <td>College Name:</td>
+          <td><input type="text" name="collegeName"></td>
+      </tr>
+      <tr>
+          <td>Phone Number:</td>
+          <td><input type="tel" name="phoneNumber"></td>
+          </td>
+      </tr>
+      <tr>
+          <td></td>
+          <td><br><input type="submit" value="Submit College Info"></td>
+      </tr>
+      </table>
+</form> 
+
+
+  
+<form action="form-processor-two.jsp" method="post">
+      <table class="inline-block">
+          <tr><th id="th-id2" colspan="2">Team Info</th></tr>
+
+      <tr>
+          <td>Favorite Sport</td>
+          <td><select name="favoriteSport">
+                  <option value="football">Football</option>
+                  <option value="basketball">Basketball</option>
+                  <option value="baseball">Baseball</option>
+              </select>
+          </td>
+      </tr>
+      <tr>
+
+      <tr>
+          <td>Favorite Team</td>
+          <td><select name="favoriteTeam">
+                  <option value="thePotatos">The Potatoes</option>
+                  <option value="romoRejects">The Romo Rejects</option>
+                  <option value="abstainingHipsters">The Abstaining Hipsters</option>
+              </select>
+          </td>
+      </tr>
+      <tr>
+
+
+      <tr>
+          <td>Favorite Player</td>
+          <td><select name="favoritePlayer">
+                  <option value="johnSmith">John Smith</option>
+                  <option value="jimSmith">Jim Smith</option>
+                  <option value="trendyCindy">Trendy Cindy</option>
+              </select>
+          </td>
+      </tr>
+      <tr>
+
+      <tr>
+    	<td>Reason for Favorites:</td>
+   			 <td><input type="text" name="reasonFavorite"></td>
+	  </tr>
+      
+      
+      <td></td>
+          <td><br><input type="submit" value="Submit College Team info"></td>
+      </tr>
+      </table>
+</form>
+
+
+
+</div>
+</body>
+</html>
